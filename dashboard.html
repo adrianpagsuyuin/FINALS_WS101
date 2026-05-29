@@ -1,0 +1,102 @@
+<!-- Adrian Pagsuyuin -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PTC Portal - Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+<script> /*para sa logout button function*/
+function logoutUser() {
+let confirmLogout = window.confirm("Are you sure you want to log out of the PTC Portal?");
+if (confirmLogout) {
+window.location.href = "login.html";
+}
+}
+</script>
+</head>
+<body>
+
+<section class="header">
+<div class="school-logo">
+<img src="school logo.jpg" alt="PTC Logo"> 
+</div>
+    
+<nav class="nav-links">
+<a href="dashboard.html" class="active">Dashboard</a>
+<a href="subjects.html">My Subjects</a>
+<a href="grades.html">Grades</a>
+<a href="profile.html">Profile</a>
+<a href="#" onclick="logoutUser()">Logout</a>
+</nav>
+</section>
+
+<div class="page-content">
+    
+<section class="banner">
+<h1>
+<span class="small-text">WELCOME BACK,</span>
+<span class="large-text">ADRIAN M. PAGSUYUIN</span>
+</h1>
+</section>
+            
+<section class="ptc-grid">
+<div class="grid-item large">
+<div class="content">
+<span style="color: darkred; font-weight: bold;">Requires Action</span> 
+<h3>Pending Examination</h3>
+<p><strong>Subject:</strong> CC 103-Programming 2</p>
+<p><strong>Type:</strong> Midterm Exam</p>
+<p><strong>Time Limit:</strong> 60 Minutes</p>
+<br>
+
+<a href="exam-portal.html" class="register" style="padding: 10px 20px; font-size: 14px;">Start Exam Now</a>
+</div>
+</div>
+
+<div class="grid-item small">
+<div class="content">
+<h3>Current Term</h3>
+<p><strong>Course:</strong> BSIT</p>
+<p><strong>Section:</strong> BSIT-1V</p>
+<p><strong>Status:</strong> 2nd Sem Enrolled</p>
+</div>
+</div>
+
+<div class="grid-item tall">
+<div class="content">
+<h3>To-Do List</h3>
+<ul style="padding-left: 20px; line-height: 1.6;">
+<li>Submit Pananaliksik Indibidwal</li>
+<li>FINAL PETA #5 - CLIMATE CHANGE</li>
+<li>Review Written and Oral Communication</li>
+</ul>
+</div>
+</div>
+
+<div class="grid-item wide">
+<div class="content">
+<span style="color: darkgreen;">System Notification</span>
+<h3>Recent Activity</h3>
+<p>Your grade for "Art Appreciation - Midterms" has been posted by Roberto Blurete.</p>
+<br>
+<a href="grades.html" style="color: darkgreen; font-weight: bold; text-decoration: none;">View Grades →</a>
+</div>
+</div>
+        
+</section>
+
+<section class="news-section">
+<div class="news-header" style="text-align: center; margin-top: 20px;">
+<h2 style="color: darkgreen;">Portal Announcements</h2>
+</div>
+<div class="news-banner">
+<p>SYSTEM MAINTENANCE: The PTC-COMET portal will be down on Sunday from 2:00 AM to 4:00 AM.</p>
+</div>
+</section>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!-- Adrian Pagsuyuin -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PTC Portal - My Grades</title>
+<link rel="stylesheet" href="style.css">
+
+<script> /*para sa logout button function*/
+function logoutUser() {
+let confirmLogout = window.confirm("Are you sure you want to log out of the PTC Portal?");
+if (confirmLogout) {
+window.location.href = "login.html";
+}
+}
+</script>
+</head>
+<body>
+
+<section class="header">
+<div class="school-logo">
+<img src="school logo.jpg" alt="PTC Logo"> 
+</div>
+<nav class="nav-links">
+<a href="dashboard.html">Dashboard</a>
+<a href="subjects.html">My Subjects</a>
+<a href="grades.html" class="active">Grades</a>
+<a href="profile.html">Profile</a>
+<a href="#" onclick="logoutUser()">Logout</a>
+</nav>
+</section>
+
+<div class="page-content">
+<section class="academics-header">
+<h1 style="color: #1B5E20; font-size: 40px; margin-bottom: 10px;">Report of Grade</h1>
+<p style="font-size: 18px; color: #555;">Bachelor of Science in Information Technology (BSIT)</p>
+</section>
+
+<section class="grades-container">
+        
+<div class="grades-header-info">
+<p><strong>Student:</strong> PAGSUYUIN, ADRIAN MARZAN</p>
+<p><strong>Course:</strong> BSIT - 1V</p>
+</div>
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px; margin-bottom: 10px;">
+<h3 style="color: #1B5E20; font-size: 22px;">1st Semester S.Y. 2025-2026</h3>
+<a href="PAGSUYUIN, ADRIAN MARZAN - 1st Semester S.Y. 2025-2026.pdf" target="_blank" style="background-color: #2E7D32; color: white; padding: 8px 15px; text-decoration: none; border-radius: 5px; font-size: 14px;">View Official Copy</a>
+</div>
+        
+<table class="grades-table">
+<thead>
+<tr>
+<th>SUBJECT CODE</th>
+<th>SUBJECT TITLE</th>
+<th>Units</th>
+<th>GRADE</th>
+<th>REMARKS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NSTP 1</td>
+<td>Civil Welfare and Training Services 1</td>
+<td>3</td>
+<td class="grade-pass">1</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>CC 101</td>
+<td>IT Fundamentals</td>
+<td>3</td>
+<td class="grade-pass">1.5</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>CC 102</td>
+<td>Programming 1 (Intro to Java)</td>
+<td>3</td>
+<td class="grade-pass">1.5</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>FIL 1</td>
+<td>Komunikasyon sa Akademikong Filipino</td>
+<td>3</td>
+<td class="grade-pass">1.25</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>MS 101</td>
+<td>Discrete Structure</td>
+<td>3</td>
+<td class="grade-pass">1.25</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>PATHFIT 1</td>
+<td>Movement Competency Training</td>
+<td>2</td>
+<td class="grade-pass">1</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>GEC-UTS</td>
+<td>Understanding the self</td>
+<td>3</td>
+<td class="grade-pass">1.5</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>GEC- MMW</td>
+<td>Math in Modern World</td>
+<td>3</td>
+<td class="grade-pass">1.25</td>
+<td class="grade-pass">PASSED</td>
+</tr>
+<tr>
+<td>SAPATEROS</td>
+<td>Pateros: History, Life & Culture</td>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+        
+<h3 style="color: #1B5E20; font-size: 22px; margin-bottom: 15px;">2nd Semester S.Y. 2025-2026</h3>
+        
+<div style="background-color: #f9fff9; border: 2px solid #2E7D32; padding: 40px; text-align: center; border-radius: 10px;">
+<h4 style="color: #d35400; font-size: 20px; margin-bottom: 10px;">Encoding in Progress</h4>
+<p style="color: #555; font-size: 16px;">Your grades for the current semester are still being processed by the instructors and the Registrar's Office. They will appear here once finalized.</p>
+</div>
+
+</section>
+</div>
+
+</body>
+</html>
